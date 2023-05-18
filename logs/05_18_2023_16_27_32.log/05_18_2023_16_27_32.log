@@ -1,0 +1,6 @@
+[2023-05-18 16:27:32,579] 186 werkzeug - WARNING -  * Debugger is active!
+[2023-05-18 16:27:32,595] 186 werkzeug - INFO -  * Debugger PIN: 115-773-768
+[2023-05-18 16:28:12,260] 8 root - INFO - we are testing our second method of logging
+[2023-05-18 16:28:12,260] 186 werkzeug - INFO - 127.0.0.1 - - [18/May/2023 16:28:12] "GET / HTTP/1.1" 200 -
+[2023-05-18 16:28:12,385] 186 werkzeug - INFO - 127.0.0.1 - - [18/May/2023 16:28:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-05-18 16:30:58,276] 186 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\ML Pipeline Project\\ML-Pipeline-Project\\src\\exception.py', reloading
