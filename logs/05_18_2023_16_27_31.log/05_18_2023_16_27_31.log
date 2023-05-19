@@ -2,3 +2,10 @@
  * Running on http://127.0.0.1:5000
 [2023-05-18 16:27:31,682] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
 [2023-05-18 16:27:31,690] 186 werkzeug - INFO -  * Restarting with stat
+[2023-05-18 16:30:58,332] 186 werkzeug - INFO -  * Restarting with stat
+[2023-05-18 16:39:15,974] 186 werkzeug - INFO -  * Restarting with stat
+[2023-05-18 16:42:43,145] 186 werkzeug - INFO -  * Restarting with stat
+[2023-05-18 16:44:16,107] 186 werkzeug - INFO -  * Restarting with stat
+[2023-05-18 16:45:15,857] 186 werkzeug - INFO -  * Restarting with stat
+[2023-05-18 16:53:19,585] 186 werkzeug - INFO -  * Restarting with stat
+[2023-05-18 16:53:36,803] 186 werkzeug - INFO -  * Restarting with stat
