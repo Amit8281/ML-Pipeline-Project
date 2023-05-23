@@ -1,0 +1,18 @@
+[2023-05-24 00:17:26,289] 55 root - INFO - DataTransformation done
+[2023-05-24 00:17:26,289] 23 root - INFO - Data ingestion started
+[2023-05-24 00:17:26,289] 25 root - INFO - data reading using pandas libraiy from local system
+[2023-05-24 00:17:26,322] 27 root - INFO - data reading completed
+[2023-05-24 00:17:26,434] 31 root - INFO - data splited into train and test
+[2023-05-24 00:17:26,562] 38 root - INFO - data ingestion completed
+[2023-05-24 00:17:26,594] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,594] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,594] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,594] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,610] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,610] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,610] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,610] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,610] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,610] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,625] 59 root - INFO - handling outliers started
+[2023-05-24 00:17:26,625] 74 root - INFO - outliers handling done

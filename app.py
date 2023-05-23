@@ -8,7 +8,7 @@ app=Flask(__name__)
 @app.route('/',methods = ['GET','POST'])
 def index():
     try:
-        raise Exception ("we are tasting our customfile")
+        raise Exception ("we are tasting our custom file")
         
     except Exception as e:
         abc = CustomException(e,sys)

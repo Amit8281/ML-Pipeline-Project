@@ -46,33 +46,36 @@ class DataTransformation:
                 ])
 
             return preprocessor
+        
 
 
 
         except Exception as e:
             raise CustomException(e,sys)
-            
+    logging.info("DataTransformation done")   
 
-    def remove_outliers_IQR(delf,col,df):
+    def remove_outliers_IQR(self,col,df):
         try:
+            logging.info("handling outliers started")
             Q1 = df[col].quantile(0.25)
             Q3 = df[col].quantile(0.75)
 
-            iqr = Q3-Q1
+            iqr = Q3 - Q1
 
-            upper_limit = Q3 + 1.5 *iqr
+            upper_limit = Q3 + 1.5 * iqr
             lower_limit = Q1 - 1.5 * iqr
 
-            df.loc[(df[col]>upper_limit), col]=upper_limit
-            df.loc[(df[col]<upper_limit), col]=lower_limit
+            df.loc[(df[col]>upper_limit), col] = upper_limit
+            df.loc[(df[col]<lower_limit), col] = lower_limit
 
             return df
 
         except Exception as e:
-            logging.info("outliers handling code")
+            logging.info("outliers handling done")
             raise CustomException(e,sys)
             
     def initiate_data_transformation(self,train_path, test_path):
+        
         try:
             train_data = pd.read_csv(train_path)
             test_data = pd.read_csv(test_path)
@@ -112,7 +115,7 @@ class DataTransformation:
 
             #preprocessor object on our train and test data
             train_array = np.c_[input_train_arr, np.array(target_feature_train_data)]
-            test_array= np.c_[input_test_arr, np.array(target_feature_test_data)]
+            test_array = np.c_[input_test_arr, np.array(target_feature_test_data)]
 
             save_object(file_path=self.data_transformation_config.preprocess_obj_file_path,
                         obj = preprocess_obj)
